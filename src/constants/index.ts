@@ -5,7 +5,7 @@ import type {
   TExperience,
   TTestimonial,
   TProject,
-} from "../types";
+} from '../types';
 
 import {
   mobile,
@@ -32,148 +32,135 @@ import {
   jobit,
   tripguide,
   threejs,
-} from "../assets";
+} from '../assets';
 
 export const navLinks: TNavLink[] = [
   {
-    id: "about",
-    title: "About",
+    id: 'about',
+    title: 'About',
   },
   {
-    id: "work",
-    title: "Work",
+    id: 'work',
+    title: 'Work',
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: 'contact',
+    title: 'Contact',
   },
 ];
 
 const services: TService[] = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
+    title: 'React Js Developer',
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: 'Mern Stack Developer',
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: 'CMS Developer',
+    icon: web,
+  },
+  {
+    title: 'Graphic Designer',
     icon: creator,
   },
 ];
 
 const technologies: TTechnology[] = [
   {
-    name: "HTML 5",
+    name: 'HTML 5',
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: 'CSS 3',
     icon: css,
   },
   {
-    name: "JavaScript",
+    name: 'JavaScript',
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: 'TypeScript',
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: 'React JS',
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: 'Redux Toolkit',
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
+    name: 'Tailwind CSS',
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: 'Node JS',
     icon: nodejs,
   },
   {
-    name: "MongoDB",
+    name: 'MongoDB',
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: 'Three JS',
     icon: threejs,
   },
   {
-    name: "git",
+    name: 'git',
     icon: git,
   },
   {
-    name: "figma",
+    name: 'figma',
     icon: figma,
   },
   {
-    name: "docker",
+    name: 'docker',
     icon: docker,
   },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
+    title: 'Frontend Developer',
+    companyName: 'Cyber Natix',
     icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    iconBg: '#E6DEDD',
+    date: 'Sep 2021 - April 2023',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      'Created and refined user interfaces using HTML, CSS, JavaScript, and Bootstrap.',
+      'Implemented modern front-end frameworks and libraries.',
+      'Collaborated with cross-functional teams to deliver high-quality web solutions.',
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
+    title: 'Frontend Web Developer',
+    companyName: 'InventPeers',
     icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    iconBg: '#383E56',
+    date: 'July 2023 - Nov 2023',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+"Gained experience in various Tech Stacks, including CMS platforms.",
+"Specialized in WordPress and Shopify.",
+"Developed and optimized user interfaces.",
+"Ensured responsive design across different devices.",
+"Enhanced overall user experience on multiple client projects.",
+
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
+    title: 'Web Application Developer',
+    companyName: 'Cybros.Dev',
     icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    iconBg: '#383E56',
+    date: 'Nov 2023 - Present',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+"Working with different testing tools and frameworks, content management systems and cross-functional teams to smoothly complete projects.",
+"Using (Mern) React Js, Node Js, Express Js, Next Js, HTML, CSS, Bootstrap, Java Script, ES7-13 and XML to structure web pages and provide smooth navigation of internet.",
+
     ],
   },
 ];
@@ -181,94 +168,104 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it's impossible to make a website as beautiful as our product, but Asfahan proved me wrong.",
+    name: 'Zohaib Ahmad',
+    designation: 'CTO',
+    company: 'TheOrganio',
+    image: 'https://media.licdn.com/dms/image/D4D03AQE43o0v6V5NCw/profile-displayphoto-shrink_200_200/0/1707130257791?e=2147483647&v=beta&t=aeQnU6rGeMagzKp4qc30H5clDl1B9dGt2VwiwbmbpZE',
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've never met a web developer who truly cares about their clients' success like Asfahan does.",
+    name: 'Yasmeen Khan',
+    designation: 'MD',
+    company: 'CTC Real Estate Dubai',
+    image: 'http://ctchouseandhome.com/wp-content/uploads/2022/01/yasmeen-e1642921757881.jpg',
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "After Asfahan optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: 'Aashir Ali',
+    designation: 'OM',
+    company: 'Al Alif Foundation',
+    image: 'https://media.licdn.com/dms/image/C4E03AQHMt-CcENHqYA/profile-displayphoto-shrink_200_200/0/1598433956589?e=2147483647&v=beta&t=h4Q1gVk5juFwgWi7OiC75zGpbr2FvqpytQ660gmXUy4',
+  },
+  {
+    testimonial:
+      "Asfahan is a great web developer, who consistently delivers top-quality results on time",
+    name: 'Ata Sultani',
+    designation: 'CEO',
+    company: 'inventPeers',
+    image: 'https://media.licdn.com/dms/image/D4E03AQFjZAvZD9ervg/profile-displayphoto-shrink_200_200/0/1706852284282?e=2147483647&v=beta&t=8BtD6NlpIGBqryRYLiIUVB310LXpy9K_0Xd0ZtLuINw',
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: 'Sky Arena',
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      'Web-based platform that provides travel reviews, trip fares, or a combination of both. Over 1.5 billion people book travel per year, 70% of which is done online.',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: 'react',
+        color: 'blue-text-gradient',
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: 'nodejs',
+        color: 'green-text-gradient',
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: 'css',
+        color: 'pink-text-gradient',
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: 'https://skyarena.vercel.app',
   },
   {
-    name: "Job IT",
+    name: 'Al Alif Foundation',
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      'A website that increases the legitimacy of Non-profit organization, helps supporters better understand the cause, and solidifies the professionalism when soliciting support.',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: 'wordpress',
+        color: 'blue-text-gradient',
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: 'elementor',
+        color: 'green-text-gradient',
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
+        name: 'css',
+        color: 'pink-text-gradient',
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: 'https://alaliffoundation.com/',
   },
+  {
+    name: 'Bookify',
+    description:
+      'Web application that allows customers to buy books online. Customers can search for a book by title or author using a web browser, add it to their shopping cart, and then purchase it using a debit or credit card transaction.',
+    tags: [
+      {
+        name: 'mern',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'restapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: jobit,
+    sourceCodeLink: 'https://thebookify.vercel.app',
+  },
+  
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
