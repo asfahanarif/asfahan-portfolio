@@ -7,6 +7,7 @@ import { SectionWrapper } from "../../hoc";
 import { slideIn } from "../../utils/motion";
 import { config } from "../../constants/config";
 import { Header } from "../atoms/Header";
+import { div } from "three/examples/jsm/nodes/Nodes.js";
 
 const INITIAL_STATE = Object.fromEntries(
   Object.keys(config.contact.form).map((input) => [input, ""])
@@ -41,9 +42,9 @@ const Contact = () => {
         emailjsConfig.serviceId,
         emailjsConfig.templateId,
         {
-          form_name: form.from_name,
+          from_name: form.name,
           to_name: config.html.fullName,
-          from_email: form.from_email,
+          from_email: form.email,
           to_email: config.html.email,
           message: form.message,
         },
@@ -66,12 +67,13 @@ const Contact = () => {
   };
 
   return (
+    
     <div
       className={`flex flex-col-reverse gap-10 overflow-hidden xl:mt-12 xl:flex-row`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="bg-black-100 flex-[0.75] rounded-2xl p-8"
+        className="bg-black-100 flex-[0.75] rounded-2xl p-8 "
       >
         <Header useMotion={false} {...config.contact} />
 
@@ -79,7 +81,7 @@ const Contact = () => {
           // @ts-expect-error
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-12 flex flex-col gap-8"
+          className="mt-12 flex flex-col gap-8 "
         >
           {Object.keys(config.contact.form).map((input) => {
             const { span, placeholder } =
