@@ -172,7 +172,7 @@ const testimonials: TTestimonial[] = [
     name: 'Zohaib Ahmad',
     designation: 'CTO',
     company: 'TheOrganio',
-    image: 'https://media.licdn.com/dms/image/D4D03AQE43o0v6V5NCw/profile-displayphoto-shrink_200_200/0/1707130257791?e=2147483647&v=beta&t=aeQnU6rGeMagzKp4qc30H5clDl1B9dGt2VwiwbmbpZE',
+    image: 'https://alaliffoundation.com/assets/zohaib-BuKo3r0f.jpg',
   },
   {
     testimonial:
@@ -180,7 +180,7 @@ const testimonials: TTestimonial[] = [
     name: 'Yasmeen Khan',
     designation: 'MD',
     company: 'CTC Real Estate Dubai',
-    image: 'http://ctchouseandhome.com/wp-content/uploads/2022/01/yasmeen-e1642921757881.jpg',
+    image: 'https://alaliffoundation.com/assets/female-TZPvFuuL.jpg',
   },
   {
     testimonial:
