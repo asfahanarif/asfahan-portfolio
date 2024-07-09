@@ -228,15 +228,15 @@ const projects: TProject[] = [
       'A website that increases the legitimacy of Non-profit organization, helps supporters better understand the cause, and solidifies the professionalism when soliciting support.',
     tags: [
       {
-        name: 'wordpress',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'elementor',
+        name: 'tsx',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'tailwind',
         color: 'pink-text-gradient',
       },
     ],
